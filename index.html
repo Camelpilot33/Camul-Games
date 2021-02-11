@@ -22,10 +22,10 @@ const config = {
 }
 const game = new Phaser.Game(config);
 function preload() {
-https://i.imgur.com/tmyUnnq.png
+  this.load.image("camul","https://i.imgur.com/tmyUnnq.png")
 }
 function create() {
-
+  camul = this.physics.add.image(0,0,'camul')
 }
 function update(){
 

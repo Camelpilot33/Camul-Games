@@ -1,4 +1,5 @@
 <script src="https://cdn.jsdelivr.net/npm/phaser@3.24.1/dist/phaser-arcade-physics.min.js"></script>
+<!-- HTML -->
 <script>const config = {
   type: Phaser.AUTO,
   width: 550,
@@ -34,13 +35,13 @@ const game = new Phaser.Game(config);
 function preload() {
   this.load.spritesheet("thing",'https://i.imgur.com/EIjClgq.png',{ frameWidth: 32, frameHeight: 32 })
   this.load.image("ground",'https://i.imgur.com/8yBLMJK.png')
-	this.load.spritesheet("blade",'https://i.imgur.com/YTk8rhu.png',{ frameWidth: 128, frameHeight: 128 })
+  this.load.spritesheet("blade",'https://i.imgur.com/YTk8rhu.png',{ frameWidth: 128, frameHeight: 128 })
   this.load.image("underworld",'https://i.imgur.com/VFymxYw.png')
   this.load.image("tank",'https://i.imgur.com/Zofprzr.png')
   this.load.image("bullet",'https://i.imgur.com/wkscGIu.png')
   this.load.image("movplat",'https://i.imgur.com/oiNCrvZ.png')
   this.load.image("potion0",'https://i.imgur.com/Sdhhvvb.png')
-	this.load.image("portal",'https://i.imgur.com/AWZVIlD.png')
+  this.load.image("portal",'https://i.imgur.com/AWZVIlD.png')
 }
 
 function create() {
